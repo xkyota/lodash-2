@@ -19,7 +19,7 @@ input.addEventListener('input', _.debounce(slider, 500));
 
 function slider(event){ 
     const index = event.target.value;
-    image.src = photos[index-1]; 
+    image.src = photos[index]; 
 }
 
 
